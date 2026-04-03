@@ -394,7 +394,7 @@ public partial class GameForm : Form
         {
             for (int j = 0; j < mapSize; j++)
             {
-                if (labelsMap[i, j].Text == "2048")
+                if (labelsMap[i, j].Text == "ура победа")
                 {
                     return true;
                 }
